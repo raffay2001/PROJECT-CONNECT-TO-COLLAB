@@ -1,0 +1,457 @@
+<!-- 
+=========================================================
+ Light Bootstrap Dashboard - v2.0.1
+=========================================================
+
+ Product Page: https://www.creative-tim.com/product/light-bootstrap-dashboard
+ Copyright 2019 Creative Tim (https://www.creative-tim.com)
+ Licensed under MIT (https://github.com/creativetimofficial/light-bootstrap-dashboard/blob/master/LICENSE)
+
+ Coded by Creative Tim
+
+=========================================================
+
+ The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.  -->
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="../assets/img/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Light Bootstrap Dashboard - Free Bootstrap 4 Admin Dashboard by Creative Tim</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+    <!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="../assets/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <!-- <link href="../assets/css/demo.css" rel="stylesheet" /> -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="students.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar" data-image="../assets/img/sidebar-5.jpg">
+            <!--
+          Tip 1: You can change the color of the sidebar using: data-color="purple | blue | green | orange | red"
+  
+          Tip 2: you can also add an image using data-image tag
+      -->
+            <div class="sidebar-wrapper">
+                <div class="logo">
+                    <a href="http://www.creative-tim.com" class="simple-text">
+                        Connect2Collab
+                    </a>
+                </div>
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dashboard.html">
+                            <i class="nc-icon nc-chart-pie-35"></i>
+                            <p>Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./user.html">
+                            <i class="nc-icon nc-circle-09"></i>
+                            <p>User Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./table.html">
+                            <i class="nc-icon nc-notes"></i>
+                            <p>Internships</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./typography.html">
+                            <i class="nc-icon nc-paper-2"></i>
+                            <p>Mentors</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./icons.html">
+                            <i class="nc-icon nc-atom"></i>
+                            <p>Companies</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active active-pro">
+                        <a class="nav-link" href="./maps.html">
+                            <i class="nc-icon nc-pin-3"></i>
+                            <p>Students</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./notifications.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Notifications</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./notifications.html">
+                            <i class="nc-icon nc-bell-55"></i>
+                            <p>Messages</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="upgrade.html">
+                            <i class="nc-icon nc-alien-33"></i>
+                            <p>Communities</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg " color-on-scroll="500">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#pablo"> Dashboard </a>
+                    <button href="" class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                        <span class="navbar-toggler-bar burger-lines"></span>
+                    </button>
+
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="col-md-12 text-success">
+                            <section id="cards">
+
+                                <!-- HEADER  -->
+                                <p class="h1 text-center text-secondary head">Students.</p>
+
+                                <!-- CONTAINER FOR CARDS  -->
+                                <div class="container cards">
+
+                                    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+                                        <!-- 1st CARD  -->
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src=" ../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Graphics Designer</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 2nd CARD  -->
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Web Developer</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 3rd CARD  -->
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Data Analyst</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 4th CARD  -->
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">QA Engineer</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 5th CARD  -->
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src=" ../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Project Manager</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 6th CARD  -->
+
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">ML Engineer</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src=" ../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 7th CARD  -->
+
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src=" ../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">AI Specialist</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src=" ../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 8th CARD  -->
+
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Ethical Hacker</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- 9th CARD  -->
+
+                                        <div class="col">
+                                            <div class="card h-100">
+                                                <img src="../assets/img/icons/person_1.jpg" alt="mentor" class="icon_1 image-fluid">
+
+                                                <div class="card-body">
+                                                    <h5 class="card-title text-center c1_head">John Doe</h5>
+                                                    <p class="card-text text-center text-dark">Game Developer</p>
+                                                    <div class="container text-center">
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1">Follow</button>
+                                                        <button type="button"
+                                                            class="btn btn-outline-secondary bt-1 bt-1a"><img
+                                                                src="../assets/img/icons/message.png" alt="email"
+                                                                class="email"></button>
+                                                        <button type="button"
+                                                            class="btn btn-primary bt-1 bt-1b">Hire</button>
+                                                    </div>
+                                                    <div class="container text-center footer">
+                                                        <button type="button"
+                                                            class="btn btn-link border border-primary">
+                                                            <p class="h6">View Profile</p>
+                                                        </button>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <!-- NEXT BUTTON -->
+                                    <div class="next">
+                                        <button type="button" class="btn btn-secondary next-btn">Next</button>
+
+                                    </div>
+
+                                </div>
+                            </section>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+<!--   Core JS Files   -->
+<script src="../assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="../assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="../assets/js/plugins/bootstrap-switch.js"></script>
+<!--  Google Maps Plugin    -->
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
+<!--  Chartist Plugin  -->
+<!-- <script src="../assets/js/plugins/chartist.min.js"></script> -->
+<!--  Notifications Plugin    -->
+<!-- <script src="../assets/js/plugins/bootstrap-notify.js"></script> -->
+<!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
+<script src="../assets/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
+<!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
+<!-- <script src="../assets/js/demo.js"></script> -->
+<!-- <script type="text/javascript">
+      $(document).ready(function() {
+          // Javascript method's body can be found in assets/js/demos.js
+          demo.initDashboardPageCharts();
+  
+          demo.showNotification();
+  
+      });
+  </script> -->
+
+</html>
