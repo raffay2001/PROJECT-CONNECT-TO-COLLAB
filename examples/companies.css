@@ -58,6 +58,10 @@
     margin-top: -1rem;
 }
 
+.card .card-body {
+    padding: 25px 15px 25px 15px !important;
+}
+
 .bt-1 {
     border-radius: 0.4rem !important;
     margin-right: 0.5rem;
@@ -69,6 +73,7 @@
 .bt-1a {
     width: 3.5rem !important;
     height: 2.5rem !important;
+    margin-top: 0.4rem;
     border-radius: 1.3rem !important;
 }
 
@@ -79,10 +84,15 @@
 }
 
 .footer {
-    margin-top: 0.6rem;
-    margin-bottom: -2rem;
+    margin-top: 1.5rem;
+    margin-bottom: -3rem;
     background-color: rgba(0, 0, 0, 0.0);
 }
+
+.card-text{
+    margin-bottom: 2rem !important;
+}
+
 
 .btn-link {
     text-decoration: none !important;

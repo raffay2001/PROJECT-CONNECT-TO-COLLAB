@@ -60,6 +60,12 @@
     margin-top: -1rem;
 }
 
+
+.card .card-body {
+    padding: 20px 15px 20px 15px !important;
+}
+
+
 .bt-1{
     border-radius: 0.4rem !important;
     margin-right: 0.5rem;
